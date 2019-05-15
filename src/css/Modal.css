@@ -1,0 +1,97 @@
+.modal {
+  margin: 100px;
+  width: 480px;
+  border-radius: 2px;
+  box-shadow: 0 0 32px 0 rgba(13, 21, 26, 0.2), 0 0 8px 0 rgba(13, 21, 26, 0.16);
+  background-color:   #FFFFE0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.modal__entry-field {
+  width: 432px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin-left: 24px;
+
+  margin-bottom: 64px;
+}
+.modal__entry-field p {
+  font-family: 'Times New Roman';
+  font-size: 12px;
+  color: #899aa3;
+  margin: 0;
+}
+
+.existing-modal {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+
+.modal h4 {
+  width: 145px;
+  height: 22px;
+  font-family: 'Times New Roman';
+  font-size: 16px;
+}
+
+.modal__button-close {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  font-size: 0;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #FFFFE0;
+}
+
+.modal__button-close::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 2px;
+  left: 5px;
+  background-color: #9aaeb8;
+  transform: rotate(45deg);
+}
+
+.modal__button-close::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  top: 2px;
+  left: 5px;
+  background-color: #9aaeb8;
+  transform: rotate(-45deg);
+}
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.existing-modal__list {
+  list-style: none;
+  padding-left: 24px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.existing-modal__list__label {
+  font-family: 'Times New Roman';
+  font-size: 14px;
+  color: #5d717a;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.existing-modal__list__label input[type="radio"] {
+    margin-right: 8px;
+}

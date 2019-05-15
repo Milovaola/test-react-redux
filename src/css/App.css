@@ -1,0 +1,12 @@
+.show-modal {
+    margin: 20px;
+    width: 130px;
+    height: 45px;
+    border-radius: 2px;
+    background-color: #6495ED;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+

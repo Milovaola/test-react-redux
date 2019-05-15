@@ -1,0 +1,14 @@
+.warning {
+  display: flex;
+  padding-left: 24px;
+  padding-top: 16px;
+  align-items: flex-end;
+}
+
+.warning__icon {
+  background-image: url(../img/2.png);
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+  background-repeat: no-repeat;
+}

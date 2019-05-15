@@ -1,0 +1,31 @@
+.template-form {
+  width: 384px;
+  height: 74px;
+  border-radius: 2px;
+  border: solid 1px #e0e0e0;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  position: relative;
+  margin-left: 20px;
+    margin-top: 20px;
+}
+
+.template-form textarea {
+  border: none;
+  width: 348px;
+  height: 62px;
+  resize: none;
+  padding: 6px 28px 6px 8px;
+}
+
+.template-form__counter {
+  display: inline-block;
+  font-family: 'Times New Roman';
+  font-size: 12px;
+  color: #899aa3;
+  margin: 0;
+  margin-top: 4px;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+}
